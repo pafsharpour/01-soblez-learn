@@ -20,6 +20,7 @@ if ($uri[1] !== 'person') {
 
 // the user id is, of course, optional and must be a number:
 $userId = null;
+//if have id - (array have 3 parametr)
 if (isset($uri[2])) {
     $userId = (int) $uri[2];
 }
